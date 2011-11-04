@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/manfnt
+# catalog-date 2007-01-02 14:43:33 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-manfnt
 Version:	20070102
 Release:	1
@@ -43,6 +49,7 @@ Arrow.
 #- source
 %doc %{_texmfdistdir}/source/latex/manfnt/manfnt.dtx
 %doc %{_texmfdistdir}/source/latex/manfnt/manfnt.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ Arrow.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
