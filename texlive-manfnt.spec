@@ -50,3 +50,17 @@ Arrow.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070102-2
++ Revision: 753735
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070102-1
++ Revision: 718952
+- texlive-manfnt
+- texlive-manfnt
+- texlive-manfnt
+- texlive-manfnt
+
