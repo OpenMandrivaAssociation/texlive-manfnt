@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-manfnt
 Version:	20070102
-Release:	9
+Release:	10
 Summary:	LaTeX support for the TeX book symbols
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/manfnt
