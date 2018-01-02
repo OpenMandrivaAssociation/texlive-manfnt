@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/manfnt
-# catalog-date 2007-01-02 14:43:33 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-manfnt
-Version:	20070102
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	LaTeX support for the TeX book symbols
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/manfnt
@@ -33,13 +27,9 @@ Arrow.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/afm/hoekwater/manfnt/manfnt.afm
-%{_texmfdistdir}/fonts/map/dvips/manfnt/manfnt.map
-%{_texmfdistdir}/fonts/type1/hoekwater/manfnt/manfnt.pfb
-%{_texmfdistdir}/tex/latex/manfnt/manfnt.sty
+%{_texmfdistdir}/tex/latex/manfnt
 #- source
-%doc %{_texmfdistdir}/source/latex/manfnt/manfnt.dtx
-%doc %{_texmfdistdir}/source/latex/manfnt/manfnt.ins
+%doc %{_texmfdistdir}/source/latex/manfnt
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,18 +39,4 @@ Arrow.
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar fonts tex source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070102-2
-+ Revision: 753735
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070102-1
-+ Revision: 718952
-- texlive-manfnt
-- texlive-manfnt
-- texlive-manfnt
-- texlive-manfnt
-
+cp -fpar tex source %{buildroot}%{_texmfdistdir}
