@@ -1,6 +1,6 @@
 Name:		texlive-manfnt
 Version:	54684
-Release:	1
+Release:	2
 Summary:	LaTeX support for the TeX book symbols
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/manfnt
