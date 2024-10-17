@@ -3,7 +3,7 @@ Version:	54684
 Release:	2
 Summary:	LaTeX support for the TeX book symbols
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/manfnt
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/manfnt
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/manfnt.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/manfnt.source.r%{version}.tar.xz
